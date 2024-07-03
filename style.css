@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+#nav{
+    display: flex;
+    background: #192a56;
+    padding: 20px;
+    position: relative;
+}
+.logo{
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    margin-left: 80px;
+
+}
+#menu{
+    position: absolute;
+    right: 10%;
+}
+#menu ul{
+    list-style: none;
+    text-align: right;
+    
+    
+}
+ul li{
+    display: inline-block;
+   
+    
+
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 15px;
+    color: white;
+}
+ul li a:hover{
+    color: #00a8ff;
+}
+.banner{
+    background-color: #0097e6;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+.banner h1{
+    color: white;
+    text-align: center;
+    padding-top: 115px;
+
+}
+.banner h4{
+    display:inline-block;
+    background-color: #192a56;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    
+}
+.banner h4 a{
+    color: white;
+    text-decoration: none;
+}
+.banner h4 a:hover{
+    color:#0097e6;
+}
+.contact{
+    display: flex;
+    background: #dcdde1;
+    margin: 0px 80px;
+    min-width: 350px;
+
+}
+.about{
+    margin: 15px 50px;
+
+}
+.about p{
+    margin: 5px 0px;
+}
+.line{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 5px;
+}
+#mob{
+    display: inline-block;
+    border: 1px solid black;
+    
+
+}
+.clinic{
+    margin: 15px 50px;
+
+}
+.clinic h4{
+    display:inline-block;
+    background-color: #192a56;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.clinic h4 a{
+    color: white;
+    text-decoration: none;
+}
+.clinic h4 a:hover{
+    color: #00a8ff;
+}
+.services{
+    margin:10px 80px;
+}
+.services h3{
+    text-align: center;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.content div{
+    height:400px;
+    width: 32%;
+    background:#74b9ff;
+    background-repeat: no-repeat;
+}
+.content div h5{
+    padding-top: 150px;
+    text-align: center;
+}
+.content div h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+   
+}
+
+.content div h5 a:hover{
+    color: #192a56;
+}
